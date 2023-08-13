@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* for Products */
+.product{
+    height: 290px;
+    width: 100%;
+    margin-top: 5rem;
+    padding-top: 4.5rem;
+    text-align: center;
+    background-color: #003d74 ;
+}
+.product h1{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.product p{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+
+/* For contact */
+
+.contact-us{
+    height: 290px;
+    width: 100%;
+    margin-top: 5rem;
+    padding-top: 4.5rem;
+    text-align: center;
+    background-color: #003d74 ;
+}
+.contact-us h1{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.contact-us p{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.col{
+    border: 1px solid black;
+    
+}
+
+.process{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .process h1{
+    margin-bottom: 55px;
+    text-align: start;
+}
+
+.col2{
+    justify-content: center;
+} */
+
+.col1{
+    color: #003d74;
+}
+
+
+/* Brochure Section */
+
+.Brochure{
+    height: 290px;
+    width: 100%;
+    margin-top: 5rem;
+    padding-top: 4.5rem;
+    text-align: center;
+    background-color: #003d74 ;
+}
+.Brochure h1{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+/* Footer */
+
+a:only-child{
+    text-decoration: none;
+}
+
+#animation ~ p a:hover{
+    color: red;
+}
